@@ -1,0 +1,84 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# =============================
+# AI Model Files (Large Binaries)
+# =============================
+*.gguf
+*.ggml
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# =============================
+# Vector / Chroma Databases (Generated)
+# =============================
+data/chroma_db/
+data/vector_db/
+chroma_db/
+vector_db/
+
+# =============================
+# Log Files
+# =============================
+*.log
+logs/
+data/app.log
+
+# =============================
+# Node.js / Frontend
+# =============================
+node_modules/
+dist/
+.next/
+out/
+.cache/
+*.local
+
+# =============================
+# Environment Variables
+# =============================
+.env
+.env.local
+.env.*.local
+
+# =============================
+# OS & Editor
+# =============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================
+# Docker
+# =============================
+.docker/
+
+# =============================
+# Misc
+# =============================
+*.zip
+*.tar.gz

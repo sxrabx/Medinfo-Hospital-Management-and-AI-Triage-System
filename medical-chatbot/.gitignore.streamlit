@@ -1,0 +1,82 @@
+# Add these lines to your .gitignore file for Streamlit projects
+
+# Streamlit cache and secrets
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/.cache/
+
+# Streamlit runtime
+/.streamlit/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+.DS_Store
+Thumbs.db
+.windows-build-tools/
+
+# Database
+*.sqlite3
+*.sqlite
+chrona.sqlite3
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS Generated
+.AppleDouble
+.LSOverride
+ehthumbs.db
